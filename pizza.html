@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="item.css">
+    <title>Order Pizza</title>
+</head>
+<body>
+    <header>
+        <h1>Order Your Pizza</h1>
+    </header>
+
+    <section id="order-form">
+        <h2>Select Your Pizza</h2>
+        <form id="pizza-order-form">
+            <label for="pizza-size">Choose Pizza Size:</label>
+            <select id="pizza-size" name="pizza-size" required>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+                <option value="extra-large">Extra Large</option>
+            </select>
+
+            <label for="toppings">Choose Toppings:</label>
+            <input type="checkbox" id="topping1" name="toppings" value="pepperoni">
+            <label for="topping1">Pepperoni</label><br>
+            <input type="checkbox" id="topping2" name="toppings" value="mushrooms">
+            <label for="topping2">Mushrooms</label><br>
+            <input type="checkbox" id="topping3" name="toppings" value="onions">
+            <label for="topping3">Onions</label><br>
+            <input type="checkbox" id="topping4" name="toppings" value="extra-cheese">
+            <label for="topping4">Extra Cheese</label><br>
+            <input type="checkbox" id="topping5" name="toppings" value="olives">
+            <label for="topping5">Olives</label><br>
+
+            <label for="contact-name">Your Name:</label>
+            <input type="text" id="contact-name" name="contact-name" required>
+
+            <label for="contact-email">Your Email:</label>
+            <input type="email" id="contact-email" name="contact-email" required>
+
+            <button type="submit">Order Now</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pizza Order. All rights reserved.</p>
+    </footer>
+</body>
+</html>
